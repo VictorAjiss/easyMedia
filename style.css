@@ -1,0 +1,200 @@
+ body {
+     margin: auto;
+ }
+ 
+ button:hover {
+     background: white;
+     color: black;
+     transform: scale(1.1);
+ }
+ 
+ .container {
+     padding: 17px;
+     padding-left: 100px;
+     padding-right: 100px;
+     background: white;
+     height: 2000px;
+ }
+ 
+ nav {
+     margin-top: 0px;
+     display: flex;
+     padding-left: 120px;
+     padding-right: 120px;
+     margin-bottom: 100px;
+     padding-bottom: 0px;
+     border-bottom: 2px solid darkblue;
+     position: fixed;
+     width: 100%;
+     background: white;
+ }
+ 
+ .navbar ul {
+     margin-top: 15px;
+     margin-left: 160px;
+     margin-right: 160px;
+     display: flex;
+     word-spacing: 20px;
+     justify-content: space-around;
+     width: 30%;
+     padding-bottom: 0px;
+     font-family: rowdies;
+ }
+ 
+ .navbar li,
+ a {
+     list-style: none;
+     text-decoration: none;
+     color: grey;
+     font-size: 14px;
+     padding-bottom: 0px;
+ }
+ 
+ .navbar li,
+ a:hover {
+     color: black;
+ }
+ 
+ .navbar button {
+     background: darkblue;
+     border-radius: 50px;
+     border-width: 0px;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: white;
+     height: 30px;
+     width: 100px;
+     text-align: center;
+     margin-top: 9px;
+     margin-bottom: 0px;
+     font-family: rowdies;
+     outline: none;
+ }
+ 
+ .navbar button :hover {
+     cursor: alias;
+ }
+ 
+ .heading {
+     display: flex;
+     padding-left: 100px;
+     margin-right: 0px;
+ }
+ 
+ .head-text {
+     padding: 10px;
+     padding-top: 130px;
+     font-family: rowdies;
+     width: 700px;
+     white-space: 20px;
+     line-height: 30px;
+ }
+ 
+ .head-text button {
+     background: darkblue;
+     height: 40px;
+     width: 130px;
+     border-radius: 50px;
+     border-width: 0px;
+     color: white;
+     font-family: rowdies;
+     margin-left: 7px;
+     outline: none;
+ }
+ 
+ .why {
+     display: flex;
+     text-align: center;
+ }
+ 
+ .why-sec {
+     padding-left: 30px;
+ }
+ 
+ .articles {
+     display: flex;
+ }
+ 
+ .article-sec {
+     padding-left: 40px;
+     padding-right: 20px;
+     text-align: center;
+ }
+ 
+ .article-sec img {
+     border-radius: 5px;
+ }
+ 
+ .posts {
+     display: flex;
+     justify-content: space-between;
+     width: 73%;
+     font-size: 30px;
+     padding: 50px;
+ }
+ 
+ .posts img {
+     width: 90px;
+     height: 90px;
+     border-radius: 50px;
+ }
+ 
+ .images {
+     margin-top: 30px;
+ }
+ 
+ .images img {
+     margin-top: 3px;
+ }
+ 
+ .texts {
+     margin-left: 20px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     padding-top: 0px;
+ }
+ 
+ .texts h6 {
+     padding: 9px;
+     padding-top: 0px;
+ }
+ 
+ .footer {
+     border-top: 3px solid darkblue;
+     height: 120px;
+     text-align: center;
+ }
+ 
+ .footer .box {
+     background: linear-gradient(lightblue, rgb(8, 8, 163));
+     height: 40px;
+ }
+ 
+ .copy ul {
+     display: flex;
+     justify-content: space-between;
+     width: 30%;
+     margin-left: 300px;
+ }
+ 
+ .copy li {
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ .copy a {
+     color: darkblue;
+     font-weight: bolder;
+ }
+
+ /*.big-image {
+     height: 180px;
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(info.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 120px;
+     color: white;
+     font-family: rowdies;
+     margin-left: 30px;
+ }*/
